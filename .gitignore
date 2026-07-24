@@ -1,0 +1,20 @@
+# datasets — not redistributed
+data/
+**/split/
+*.JPG
+*.JPEG
+
+# model checkpoints (large binaries, regenerate by rerunning training)
+*.pt
+*.pth
+*.keras
+*.h5
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

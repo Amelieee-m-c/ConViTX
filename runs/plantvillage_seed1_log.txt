@@ -1,0 +1,81 @@
+classes: 38
+train=37997 val=5417 test=10891
+trainable params: 329058
+epoch 1/30  train_loss=2.7089 train_acc=0.3732  val_loss=2.2902 val_acc=0.4191
+epoch 2/30  train_loss=1.7590 train_acc=0.5691  val_loss=1.3939 val_acc=0.6450
+epoch 3/30  train_loss=1.2455 train_acc=0.6786  val_loss=1.1536 val_acc=0.6827
+epoch 4/30  train_loss=0.9127 train_acc=0.7561  val_loss=0.6732 val_acc=0.8100
+epoch 5/30  train_loss=0.6747 train_acc=0.8225  val_loss=0.5092 val_acc=0.8579
+epoch 6/30  train_loss=0.5216 train_acc=0.8619  val_loss=0.3939 val_acc=0.8881
+epoch 7/30  train_loss=0.4242 train_acc=0.8859  val_loss=0.2835 val_acc=0.9162
+epoch 8/30  train_loss=0.3446 train_acc=0.9062  val_loss=0.2844 val_acc=0.9180
+epoch 9/30  train_loss=0.2869 train_acc=0.9217  val_loss=0.1648 val_acc=0.9479
+epoch 10/30  train_loss=0.2494 train_acc=0.9320  val_loss=0.1776 val_acc=0.9483
+epoch 11/30  train_loss=0.2100 train_acc=0.9414  val_loss=0.1261 val_acc=0.9657
+epoch 12/30  train_loss=0.1861 train_acc=0.9493  val_loss=0.1372 val_acc=0.9605
+epoch 13/30  train_loss=0.1621 train_acc=0.9544  val_loss=0.1135 val_acc=0.9655
+epoch 14/30  train_loss=0.1510 train_acc=0.9581  val_loss=0.1052 val_acc=0.9682
+epoch 15/30  train_loss=0.1302 train_acc=0.9628  val_loss=0.0978 val_acc=0.9708
+epoch 16/30  train_loss=0.1197 train_acc=0.9645  val_loss=0.0819 val_acc=0.9766
+epoch 17/30  train_loss=0.1053 train_acc=0.9699  val_loss=0.0921 val_acc=0.9714
+epoch 18/30  train_loss=0.0975 train_acc=0.9723  val_loss=0.0713 val_acc=0.9766
+epoch 19/30  train_loss=0.0916 train_acc=0.9730  val_loss=0.0659 val_acc=0.9784
+epoch 20/30  train_loss=0.0820 train_acc=0.9758  val_loss=0.0784 val_acc=0.9766
+epoch 21/30  train_loss=0.0799 train_acc=0.9776  val_loss=0.0688 val_acc=0.9762
+epoch 22/30  train_loss=0.0725 train_acc=0.9788  val_loss=0.0688 val_acc=0.9782
+epoch 23/30  train_loss=0.0688 train_acc=0.9803  val_loss=0.0722 val_acc=0.9786
+epoch 24/30  train_loss=0.0633 train_acc=0.9819  val_loss=0.0730 val_acc=0.9766
+early stopping at epoch 24
+
+=== Test set results ===
+accuracy:  0.9775
+precision (macro): 0.9625
+recall (macro): 0.9724
+f1 (macro): 0.9671
+                                                    precision    recall  f1-score   support
+
+                                Apple___Apple_scab     0.9587    0.9206    0.9393       126
+                                 Apple___Black_rot     0.9918    0.9680    0.9798       125
+                          Apple___Cedar_apple_rust     0.8689    0.9464    0.9060        56
+                                   Apple___healthy     0.9756    0.9697    0.9726       330
+                               Blueberry___healthy     0.9899    0.9801    0.9850       301
+          Cherry_(including_sour)___Powdery_mildew     0.9717    0.9763    0.9740       211
+                 Cherry_(including_sour)___healthy     0.9884    0.9942    0.9913       172
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot     0.8774    0.9029    0.8900       103
+                       Corn_(maize)___Common_rust_     1.0000    1.0000    1.0000       239
+               Corn_(maize)___Northern_Leaf_Blight     0.9637    0.9394    0.9514       198
+                            Corn_(maize)___healthy     0.9915    1.0000    0.9957       233
+                                 Grape___Black_rot     0.9585    0.9788    0.9686       236
+                      Grape___Esca_(Black_Measles)     0.9853    0.9711    0.9782       277
+        Grape___Leaf_blight_(Isariopsis_Leaf_Spot)     0.9772    0.9907    0.9839       216
+                                   Grape___healthy     0.8763    1.0000    0.9341        85
+          Orange___Haunglongbing_(Citrus_greening)     0.9982    0.9982    0.9982      1103
+                            Peach___Bacterial_spot     0.9978    0.9696    0.9835       461
+                                   Peach___healthy     0.9733    1.0000    0.9865        73
+                     Pepper,_bell___Bacterial_spot     0.9655    0.9751    0.9703       201
+                            Pepper,_bell___healthy     0.9544    0.9865    0.9702       297
+                             Potato___Early_blight     0.9755    0.9950    0.9851       200
+                              Potato___Late_blight     0.9192    0.9100    0.9146       200
+                                  Potato___healthy     0.8788    0.9355    0.9062        31
+                               Raspberry___healthy     0.9259    1.0000    0.9615        75
+                                 Soybean___healthy     0.9960    0.9705    0.9831      1018
+                           Squash___Powdery_mildew     0.9919    1.0000    0.9959       368
+                          Strawberry___Leaf_scorch     0.9955    0.9865    0.9910       223
+                              Strawberry___healthy     0.9192    0.9891    0.9529        92
+                           Tomato___Bacterial_spot     0.9882    0.9766    0.9823       427
+                             Tomato___Early_blight     0.9355    0.8700    0.9016       200
+                              Tomato___Late_blight     0.9198    0.9582    0.9386       383
+                                Tomato___Leaf_Mold     0.9795    1.0000    0.9896       191
+                       Tomato___Septoria_leaf_spot     0.9856    0.9662    0.9758       355
+     Tomato___Spider_mites Two-spotted_spider_mite     0.9623    0.9881    0.9750       336
+                              Tomato___Target_Spot     0.9816    0.9468    0.9639       282
+            Tomato___Tomato_Yellow_Leaf_Curl_Virus     0.9963    0.9963    0.9963      1073
+                      Tomato___Tomato_mosaic_virus     0.9740    1.0000    0.9868        75
+                                  Tomato___healthy     0.9875    0.9937    0.9906       319
+
+                                          accuracy                         0.9775     10891
+                                         macro avg     0.9625    0.9724    0.9671     10891
+                                      weighted avg     0.9779    0.9775    0.9775     10891
+
+
+saved: ..\runs\plantvillage_seed1
